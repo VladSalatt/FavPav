@@ -9,7 +9,7 @@ let project = Project(
             sources: ["FavPav/Sources/**"],
             resources: ["Resources/**"],
             dependencies: [
-                .project(target: "NetworkCore", path: "Frameworks/Core/Network")
+                .project(target: "NetworkCore", path: "LocalFrameworks/Core/Network")
             ]
         )
     ]
